@@ -40,63 +40,69 @@ donkergroen #1C2B32*/
 /
 3
 . Areas
-
-
-/*3.1
-Header*/
-
+    /*3.1
+    Header*/
 header {
-    background-image:  url("..assets/images/mountains.jpg"");
-    background-size: cover;
-    background-position: center;
-}
-
-header div {
-    max-width: 1000px;
-    margin: 0;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    disply: flex;
-    text-align: centre;
-    align-items: center;
-}
-
-.knopbeschikbaar {
-    position: relative;
-    padding-right: 100px;
-}
-
-.achterelkaar label,
-.achterelkaar input,
-.achterelkaar button {
-    display: inline-block;
-    margin: 0;
-    vertical-align: middle;
-}
-
-.bt-in-spe {
+    background-image: url("..assets/images/mountains.jpg" "); background-size: cover; background-position: center; } .centreer-box { display: flex; justify-content: center; align-items: center; height: 100vh; }
+    .knopbeschikbaar {
+        position: relative;
+        padding-right: 100px;
+    }
+    .achterelkaar label,
+    .achterelkaar input,
+    .achterelkaar button {
+        display: inline-block;
+        margin: 0;
+        vertical-align: middle;
+    }
+    .bt-in-spe {
     position: absolute;
     margin-left: 0;
     background-color: black;
     color: white;
-}
-.centreer-box {
+    }
+    .centreer-box {
     margin= 0 auto;
-}
-
+    }
     .max-breedte-main {
-    max-width: 1000px;
-    margin: 0 auto;
-    text-align: center;
-    align-items: centre;
+        max-width: 1000px;
+        margin: 0 auto;
+        text-align: center;
+        align-items: centre; } } /*/////////////
 
-/*///////////// 3.2 Testimonial /////////////*/
+   /* 3.2 Testimonial /////////////*/ } /*/////////////
+
+   /* 3.3 Support /////////////*/ .callcenter-img { border-bottom-left-radius:8px; border-bottom-right-radius:8px;border-top-left-radius:8px; border-bottom-right-radius:8px;width:50%;
+    margin-left:30px;
+
+    .team-link: hover {
+    color: gray;
+    text-decoration: underline;
+
+    .contact-box {
+        background-color: black;
+        color: white;
+        border: 1px;
+        padding: 10px;
+        border-radius: 5px;
+        with: 100%;
+
+    }
 
 
-/*///////////// 3.3 Support /////////////*/
 
 
-/*///////////// 3.4 Faq /////////////*/
+
+    /*/////////////
+
+    /*3.4 Faq /////////////*/
 
 
-/*///////////// 3.5 Footer /////////////*/
+
+    /*/////////////
+
+
+    3.5 Footer /////////////*/
+    .rights {
+        flexbox: display;
+        justify-content: left;
