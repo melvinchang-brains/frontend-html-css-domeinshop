@@ -17,8 +17,8 @@ Table of Contents:
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
-/*grijs #899CA0
-donkergroen #1C2B32*/
+/*grijs #899CA0 */
+/*donkergroen #1C2B32*/
 
 * {
     margin: 0;
@@ -26,38 +26,51 @@ donkergroen #1C2B32*/
     box-sizing: border-box;
 }
 
-/*2
-. Typography*/
+/*2 Typography */
 
-/
-/
-/
-/
-/
-/
-/
-/
-/
-3
-. Areas
-    /*3.1
-    Header*/
-header {
-    background-image: url("..assets/images/mountains.jpg" "); background-size: cover; background-position: center; } .centreer-box { display: flex; justify-content: center; align-items: center; height: 100vh; }
+/*3
+Areas*/
+    /*3.1 */
+
+/*Areas*/
+    /*3.1*/
+
+  .header-box {
+    background-image: url("../assets/images/mountains.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+   .centreer-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height:100vh;
+        margin-top:20px;
+        margin-bottom:20px;
+        text-align:center;
+    }
+    .centreer-box h1 {
+        margin-bottom: 32px;
+    }
+    .centreer-box p {
+        margin-bottom: 32px;
+    }
     .knopbeschikbaar {
         position: relative;
-        padding-right: 100px;
+        padding-right: 10px;
+        margin-bottom: 32px;
+
     }
-    .achterelkaar label,
-    .achterelkaar input,
-    .achterelkaar button {
+    .achterelkaar {
         display: inline-block;
         margin: 0;
         vertical-align: middle;
     }
     .bt-in-spe {
     position: absolute;
-    margin-left: 0;
+    margin-right: 40px;
     background-color: black;
     color: white;
     }
@@ -65,44 +78,81 @@ header {
     margin= 0 auto;
     }
     .max-breedte-main {
-        max-width: 1000px;
+ >      max-width:1000px;
         margin: 0 auto;
-        text-align: center;
-        align-items: centre; } } /*/////////////
+        text-align:center;
+        align-items:center; }
 
-   /* 3.2 Testimonial /////////////*/ } /*/////////////
+   /* 3.2 Testimonial */
 
-   /* 3.3 Support /////////////*/ .callcenter-img { border-bottom-left-radius:8px; border-bottom-right-radius:8px;border-top-left-radius:8px; border-bottom-right-radius:8px;width:50%;
-    margin-left:30px;
-
-    .team-link: hover {
-    color: gray;
-    text-decoration: underline;
-
-    .contact-box {
-        background-color: black;
-        color: white;
-        border: 1px;
+    .transparant-box {
+        background-color:white;
+        border: 2px;
+        padding:10px;
+        border-radius:20px;
+        box-shadow:0 8px 24px rgba(0, 0, 0, 0.10);
+        margin-bottom: 20px;
+    }
+    .author-box {
+        display: flex;
+        align-items: center;
+        background-color: white;
         padding: 10px;
-        border-radius: 5px;
-        with: 100%;
+        justify-content:center;
+        align-items:center;
+    }
+    .author-box img {
+         width: 60px;
+         border-radius: 50%;
+         height: 60px;
+         display: flex;
+}
+
+   /* 3.3 Support /////////////*/
+
+    .callcenter-img {
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        border-top-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        width: 50%;
+        margin-left: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+        .klant-hulp contact-knop {
+            color:white;
+            background-color:black;
+            border:2px;
+            height:20px;
+            border-radius:-50px;
+        }
+
+        .team-link:hover {
+        color: gray;
+        text-decoration: underline;
+}
+
+
 
     }
 
 
 
 
-
-    /*/////////////
-
-    /*3.4 Faq /////////////*/
-
-
-
-    /*/////////////
-
-
-    3.5 Footer /////////////*/
+    /*3.4 Faq */
+    .bewaar-afstand:hover{
+        cursor: pointer;
+}
+    .vragen-box {
+        margin: 20px;
+    }
+    .bewaar-afstand {
+        padding:5px;
+        margin:2px;
+    }
+    /*3.5 Footer /////////////*/
     .rights {
         flexbox: display;
         justify-content: left;
+}
