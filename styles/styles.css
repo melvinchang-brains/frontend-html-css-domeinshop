@@ -66,6 +66,11 @@ body {
         flex-direction: row;
         font-size: 12px;
     }
+
+    .form-box button {
+        color: white;
+        background-color: black;
+    }
     /*
     .max-breedte-main {
  >      max-width:1000px;
